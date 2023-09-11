@@ -95,7 +95,7 @@ const execute = function executeCommand(input) {
     if(position.length>0){
       position.pop();
     }
-    output = '<div class="terminal-line"><span class="success">> inside directory '+positions()+'</div>';
+    output = '<div><span class="success">> inside directory '+positions()+'</div>';
     if(position.length>0){
       navigateTo(position);
     }else{
