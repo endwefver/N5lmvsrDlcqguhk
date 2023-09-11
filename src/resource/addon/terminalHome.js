@@ -53,7 +53,7 @@ const execute = function executeCommand(input) {
       if(position.length>0){
         position.pop();
       }
-      output = '<div class="terminal-line"><span class="success">> inside directory '+positions()+'</div>'; 
+      output = '<div ><span class="success">> inside directory '+positions()+'</div>'; 
       if(position.length>0 && thisL.length==0){
         navigateTo(position);
       }else if(thisL.length>0){
@@ -72,7 +72,7 @@ const execute = function executeCommand(input) {
         sendVector();
       }else{
         
-        output = '<div class="terminal-line"><span class="success">> inside directory '+positions()+'</div>';
+        output = '<div ><span class="success">> inside directory '+positions()+'</div>';
         terminalOutput.innerHTML = `${terminalOutput.innerHTML}<div class="terminal-line">${output}</div>`;
         terminalOutput.scrollTop = terminalOutput.scrollHeight;
       }
