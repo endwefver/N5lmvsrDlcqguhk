@@ -162,7 +162,7 @@ const map ={
     },
     page4: { name: 'page4', show: true, l: false, psw: "XVbEIJpgKIwIj4IWqaqNWOGzidGQZnZhbQKd5mC8kOtNHjjlPK", pswCheck: true, result: "memories1",
         child: { 
-            memories1: { name: 'memories1', show: false, l: false, psw: "myjoQPhsojSjxKQPHO22JJomW5sQg204QZhqkVScalLxgF8DeE", sequence:["futura","psw"] , result: "memories2",  
+            memories1: { name: 'memories1', show: false, l: false, psw: "myjoQPhsojSjxKQPHO22JJomW5sQg204QZhqkVScalLxgF8DeE", sequence:["futura","3edf99"] , result: "memories2",  
                 child: { memories2: { name: 'memories2', show: true, l: false, psw: "59wNt8MlB4A731bUiskkovH8sxuCCEYJyRDwnBPTP3lYfK785y",  
                     child: { 
                         memories3: { name: 'memories3', show: true, l: false, psw: "dFw31UWZ67IZ0GTppfq3bkR03CCZflcZdk5mqIAEtv5xroJjJl"},
