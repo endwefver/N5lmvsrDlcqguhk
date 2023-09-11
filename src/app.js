@@ -70,8 +70,8 @@ app.get("/empty.html", (request, response) => {
     response.sendFile('empty.html' , { root: './src/resource/html/' }) 
 });  
 
-app.get("/I.pdfr", (request, response) => { 
-    response.sendFile('I.pdf' , { root: './src/resource/html/' }) 
+app.get("/l.pdf", (request, response) => { 
+    response.sendFile('l.pdf' , { root: './src/resource/html/' }) 
 });  
 
 //LOAD FAVICON
@@ -162,7 +162,7 @@ const map ={
     },
     page4: { name: 'page4', show: true, l: false, psw: "XVbEIJpgKIwIj4IWqaqNWOGzidGQZnZhbQKd5mC8kOtNHjjlPK", pswCheck: true, result: "memories1",
         child: { 
-            memories1: { name: 'memories1', show: false, l: false, psw: "myjoQPhsojSjxKQPHO22JJomW5sQg204QZhqkVScalLxgF8DeE", sequence:["user","psw"] , result: "memories2",  
+            memories1: { name: 'memories1', show: false, l: false, psw: "myjoQPhsojSjxKQPHO22JJomW5sQg204QZhqkVScalLxgF8DeE", sequence:["futura","psw"] , result: "memories2",  
                 child: { memories2: { name: 'memories2', show: true, l: false, psw: "59wNt8MlB4A731bUiskkovH8sxuCCEYJyRDwnBPTP3lYfK785y",  
                     child: { 
                         memories3: { name: 'memories3', show: true, l: false, psw: "dFw31UWZ67IZ0GTppfq3bkR03CCZflcZdk5mqIAEtv5xroJjJl"},
@@ -190,8 +190,7 @@ const map ={
                                     }
                                 }}}
                         },  
-                        memories16: { name: 'memories16', show: true, l: false, psw: "SFfekAlQQrOHZ6481tF7dMgZJ7BwEzA6xF7aAhymwpsMPn7f3d"},
-                        memories19: { name: 'memories19', show: true, l: false, psw: "1MDytzPhuCPAzJtXuQNTK0x7DTcyhBfUDUklaDWbOkqB6VWfJO"}
+                        memories16: { name: 'memories16', show: true, l: false, psw: "SFfekAlQQrOHZ6481tF7dMgZJ7BwEzA6xF7aAhymwpsMPn7f3d"}
                     }
                 }}
             }
