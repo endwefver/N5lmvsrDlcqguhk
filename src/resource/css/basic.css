@@ -1,0 +1,25 @@
+body{
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'VT323', monospace;
+    color: white;
+    font-size: 1.5em;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #95a699;
+  border: 1px solid #a5caa5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #214129;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  cursor: unset;
+}
