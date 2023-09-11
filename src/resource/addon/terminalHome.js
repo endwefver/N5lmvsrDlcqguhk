@@ -113,7 +113,7 @@ const execute = function executeCommand(input) {
    
   window.setTimeout(function(){
     document.getElementById("bottomscroll").scrollIntoView()
-  }, 50); 
+  }, 900); 
 };
 
 const key = (e) => {
