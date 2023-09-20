@@ -167,10 +167,14 @@ socket.on('c', function(b) {
   if(thisDir!=null && thisDir.pswCheck){
     user = prompt("User")
     psw = prompt("Psw")
+    if(!user || !psw){
+      user="c";
+      psw="a";
+    }
     var t ={
       position: position,
       key: thisDir.key,
-      sequence: [user,psw]
+      sequence: [user.toLowerCase(),psw.toLowerCase()]
     }
     socket.emit('t',t);
   }
