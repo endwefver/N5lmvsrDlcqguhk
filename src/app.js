@@ -200,7 +200,8 @@ const map ={
         child: { 
             memories: { name: 'memories', show: false, l: false, psw: "TDIpQqDmbtEX5bZF9CyClDlY7THVBinrevfQEU0ECuoNmvG4rw", sequence:["0","1","4","0","0","1","4","0","1","4","1","4","0","1","4","0","1","4","0","1","4","0","1","4","0","1","4","0","1","4"] }
         }
-    }
+    },
+    page6: { name: 'page6', show: true, psw: "UbvVnQldYWDrhjJeIjhNQopk8sqaCnw0Yt1LRgNE4h7Njlenf3",l: false}
   } 
   function maps(path){
       if(path){
